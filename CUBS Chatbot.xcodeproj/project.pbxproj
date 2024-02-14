@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71BDCFD22B7D459C002528E8 /* CUBS_ChatbotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDCFD12B7D459C002528E8 /* CUBS_ChatbotApp.swift */; };
+		71BDCFD42B7D459C002528E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDCFD32B7D459C002528E8 /* ContentView.swift */; };
+		71BDCFD82B7D459F002528E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BDCFD72B7D459F002528E8 /* Assets.xcassets */; };
+		71BDCFDB2B7D459F002528E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BDCFDA2B7D459F002528E8 /* Preview Assets.xcassets */; };
+		71BDCFE52B7D459F002528E8 /* CUBS_ChatbotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDCFE42B7D459F002528E8 /* CUBS_ChatbotTests.swift */; };
+		71BDCFEF2B7D459F002528E8 /* CUBS_ChatbotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDCFEE2B7D459F002528E8 /* CUBS_ChatbotUITests.swift */; };
+		71BDCFF12B7D459F002528E8 /* CUBS_ChatbotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDCFF02B7D459F002528E8 /* CUBS_ChatbotUITestsLaunchTests.swift */; };
+		71BDCFFE2B7D5203002528E8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDCFFD2B7D5203002528E8 /* Item.swift */; };
+		71BDD0002B7D5277002528E8 /* Bot_Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDCFFF2B7D5277002528E8 /* Bot_Response.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71BDCFE12B7D459F002528E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71BDCFC62B7D459C002528E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71BDCFCD2B7D459C002528E8;
+			remoteInfo = "CUBS Chatbot";
+		};
+		71BDCFEB2B7D459F002528E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71BDCFC62B7D459C002528E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71BDCFCD2B7D459C002528E8;
+			remoteInfo = "CUBS Chatbot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71BDCFCE2B7D459C002528E8 /* CUBS Chatbot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CUBS Chatbot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BDCFD12B7D459C002528E8 /* CUBS_ChatbotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUBS_ChatbotApp.swift; sourceTree = "<group>"; };
+		71BDCFD32B7D459C002528E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		71BDCFD72B7D459F002528E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71BDCFDA2B7D459F002528E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71BDCFE02B7D459F002528E8 /* CUBS ChatbotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CUBS ChatbotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BDCFE42B7D459F002528E8 /* CUBS_ChatbotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUBS_ChatbotTests.swift; sourceTree = "<group>"; };
+		71BDCFEA2B7D459F002528E8 /* CUBS ChatbotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CUBS ChatbotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BDCFEE2B7D459F002528E8 /* CUBS_ChatbotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUBS_ChatbotUITests.swift; sourceTree = "<group>"; };
+		71BDCFF02B7D459F002528E8 /* CUBS_ChatbotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUBS_ChatbotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		71BDCFFD2B7D5203002528E8 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		71BDCFFF2B7D5277002528E8 /* Bot_Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bot_Response.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71BDCFCB2B7D459C002528E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BDCFDD2B7D459F002528E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BDCFE72B7D459F002528E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71BDCFC52B7D459C002528E8 = {
+			isa = PBXGroup;
+			children = (
+				71BDCFD02B7D459C002528E8 /* CUBS Chatbot */,
+				71BDCFE32B7D459F002528E8 /* CUBS ChatbotTests */,
+				71BDCFED2B7D459F002528E8 /* CUBS ChatbotUITests */,
+				71BDCFCF2B7D459C002528E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71BDCFCF2B7D459C002528E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71BDCFCE2B7D459C002528E8 /* CUBS Chatbot.app */,
+				71BDCFE02B7D459F002528E8 /* CUBS ChatbotTests.xctest */,
+				71BDCFEA2B7D459F002528E8 /* CUBS ChatbotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71BDCFD02B7D459C002528E8 /* CUBS Chatbot */ = {
+			isa = PBXGroup;
+			children = (
+				71BDCFD12B7D459C002528E8 /* CUBS_ChatbotApp.swift */,
+				71BDCFD32B7D459C002528E8 /* ContentView.swift */,
+				71BDCFFF2B7D5277002528E8 /* Bot_Response.swift */,
+				71BDCFFD2B7D5203002528E8 /* Item.swift */,
+				71BDCFD72B7D459F002528E8 /* Assets.xcassets */,
+				71BDCFD92B7D459F002528E8 /* Preview Content */,
+			);
+			path = "CUBS Chatbot";
+			sourceTree = "<group>";
+		};
+		71BDCFD92B7D459F002528E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				71BDCFDA2B7D459F002528E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		71BDCFE32B7D459F002528E8 /* CUBS ChatbotTests */ = {
+			isa = PBXGroup;
+			children = (
+				71BDCFE42B7D459F002528E8 /* CUBS_ChatbotTests.swift */,
+			);
+			path = "CUBS ChatbotTests";
+			sourceTree = "<group>";
+		};
+		71BDCFED2B7D459F002528E8 /* CUBS ChatbotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71BDCFEE2B7D459F002528E8 /* CUBS_ChatbotUITests.swift */,
+				71BDCFF02B7D459F002528E8 /* CUBS_ChatbotUITestsLaunchTests.swift */,
+			);
+			path = "CUBS ChatbotUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71BDCFCD2B7D459C002528E8 /* CUBS Chatbot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BDCFF42B7D459F002528E8 /* Build configuration list for PBXNativeTarget "CUBS Chatbot" */;
+			buildPhases = (
+				71BDCFCA2B7D459C002528E8 /* Sources */,
+				71BDCFCB2B7D459C002528E8 /* Frameworks */,
+				71BDCFCC2B7D459C002528E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CUBS Chatbot";
+			productName = "CUBS Chatbot";
+			productReference = 71BDCFCE2B7D459C002528E8 /* CUBS Chatbot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71BDCFDF2B7D459F002528E8 /* CUBS ChatbotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BDCFF72B7D459F002528E8 /* Build configuration list for PBXNativeTarget "CUBS ChatbotTests" */;
+			buildPhases = (
+				71BDCFDC2B7D459F002528E8 /* Sources */,
+				71BDCFDD2B7D459F002528E8 /* Frameworks */,
+				71BDCFDE2B7D459F002528E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71BDCFE22B7D459F002528E8 /* PBXTargetDependency */,
+			);
+			name = "CUBS ChatbotTests";
+			productName = "CUBS ChatbotTests";
+			productReference = 71BDCFE02B7D459F002528E8 /* CUBS ChatbotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71BDCFE92B7D459F002528E8 /* CUBS ChatbotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BDCFFA2B7D459F002528E8 /* Build configuration list for PBXNativeTarget "CUBS ChatbotUITests" */;
+			buildPhases = (
+				71BDCFE62B7D459F002528E8 /* Sources */,
+				71BDCFE72B7D459F002528E8 /* Frameworks */,
+				71BDCFE82B7D459F002528E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71BDCFEC2B7D459F002528E8 /* PBXTargetDependency */,
+			);
+			name = "CUBS ChatbotUITests";
+			productName = "CUBS ChatbotUITests";
+			productReference = 71BDCFEA2B7D459F002528E8 /* CUBS ChatbotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71BDCFC62B7D459C002528E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					71BDCFCD2B7D459C002528E8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					71BDCFDF2B7D459F002528E8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 71BDCFCD2B7D459C002528E8;
+					};
+					71BDCFE92B7D459F002528E8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 71BDCFCD2B7D459C002528E8;
+					};
+				};
+			};
+			buildConfigurationList = 71BDCFC92B7D459C002528E8 /* Build configuration list for PBXProject "CUBS Chatbot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71BDCFC52B7D459C002528E8;
+			productRefGroup = 71BDCFCF2B7D459C002528E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71BDCFCD2B7D459C002528E8 /* CUBS Chatbot */,
+				71BDCFDF2B7D459F002528E8 /* CUBS ChatbotTests */,
+				71BDCFE92B7D459F002528E8 /* CUBS ChatbotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71BDCFCC2B7D459C002528E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BDCFDB2B7D459F002528E8 /* Preview Assets.xcassets in Resources */,
+				71BDCFD82B7D459F002528E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BDCFDE2B7D459F002528E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BDCFE82B7D459F002528E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71BDCFCA2B7D459C002528E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BDD0002B7D5277002528E8 /* Bot_Response.swift in Sources */,
+				71BDCFD42B7D459C002528E8 /* ContentView.swift in Sources */,
+				71BDCFFE2B7D5203002528E8 /* Item.swift in Sources */,
+				71BDCFD22B7D459C002528E8 /* CUBS_ChatbotApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BDCFDC2B7D459F002528E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BDCFE52B7D459F002528E8 /* CUBS_ChatbotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BDCFE62B7D459F002528E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BDCFEF2B7D459F002528E8 /* CUBS_ChatbotUITests.swift in Sources */,
+				71BDCFF12B7D459F002528E8 /* CUBS_ChatbotUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71BDCFE22B7D459F002528E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71BDCFCD2B7D459C002528E8 /* CUBS Chatbot */;
+			targetProxy = 71BDCFE12B7D459F002528E8 /* PBXContainerItemProxy */;
+		};
+		71BDCFEC2B7D459F002528E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71BDCFCD2B7D459C002528E8 /* CUBS Chatbot */;
+			targetProxy = 71BDCFEB2B7D459F002528E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71BDCFF22B7D459F002528E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71BDCFF32B7D459F002528E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71BDCFF52B7D459F002528E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CUBS Chatbot/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CUBS-Chatbot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71BDCFF62B7D459F002528E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CUBS Chatbot/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CUBS-Chatbot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71BDCFF82B7D459F002528E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CUBS-ChatbotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CUBS Chatbot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CUBS Chatbot";
+			};
+			name = Debug;
+		};
+		71BDCFF92B7D459F002528E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CUBS-ChatbotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CUBS Chatbot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CUBS Chatbot";
+			};
+			name = Release;
+		};
+		71BDCFFB2B7D459F002528E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CUBS-ChatbotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CUBS Chatbot";
+			};
+			name = Debug;
+		};
+		71BDCFFC2B7D459F002528E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CUBS-ChatbotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CUBS Chatbot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71BDCFC92B7D459C002528E8 /* Build configuration list for PBXProject "CUBS Chatbot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BDCFF22B7D459F002528E8 /* Debug */,
+				71BDCFF32B7D459F002528E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BDCFF42B7D459F002528E8 /* Build configuration list for PBXNativeTarget "CUBS Chatbot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BDCFF52B7D459F002528E8 /* Debug */,
+				71BDCFF62B7D459F002528E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BDCFF72B7D459F002528E8 /* Build configuration list for PBXNativeTarget "CUBS ChatbotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BDCFF82B7D459F002528E8 /* Debug */,
+				71BDCFF92B7D459F002528E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BDCFFA2B7D459F002528E8 /* Build configuration list for PBXNativeTarget "CUBS ChatbotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BDCFFB2B7D459F002528E8 /* Debug */,
+				71BDCFFC2B7D459F002528E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71BDCFC62B7D459C002528E8 /* Project object */;
+}
